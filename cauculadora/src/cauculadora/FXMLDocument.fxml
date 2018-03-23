@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="320" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="cauculadora.FXMLDocumentController">
+    <children>
+      <TextField fx:id="txtn1" layoutX="27.0" layoutY="34.0" />
+      <TextField fx:id="txtn2" layoutX="27.0" layoutY="100.0" />
+      <Label fx:id="lbln3" layoutX="27.0" layoutY="14.0" text="numero1 " />
+      <Label fx:id="lbln2" layoutX="27.0" layoutY="74.0" text="numero2" />
+      <Button fx:id="btnsomar" layoutX="222.0" layoutY="34.0" mnemonicParsing="false" text="Somar" />
+      <Label fx:id="lblresult" layoutX="27.0" layoutY="136.0" text="Resultado" />
+      <TextField fx:id="txtresult" layoutX="27.0" layoutY="161.0" />
+    </children>
+</AnchorPane>
